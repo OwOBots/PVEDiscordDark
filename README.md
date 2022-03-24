@@ -4,7 +4,7 @@
 
 ![](https://i.imgur.com/SnlCyHF.png)
 
-<p align="center">A dark theme for the Proxmox Web UI,<br/> <i>inspired by Discord's color scheme.</i></p>
+<p align="center">A dark theme for the Proxmox Web UI,<br/> <i>Now with 100% more gensokyo bullshit</i></p>
 
 <p align="center">Everything is dark, including the graphs, context menus and all in between! Eyes need not be fried.</p>    
 The theme now runs its own JavaScript code which patches the colors for certain components (and charts). This approach is much better, and safer than what was used previously.
@@ -13,14 +13,17 @@ The theme now runs its own JavaScript code which patches the colors for certain 
 The installation is done via the CLI utility. Run the following commands on the PVE node serving the Web UI:
 
 ```
-~# wget https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh
+~# wget https://raw.githubusercontent.com/OwObots/PVEDiscordDark/master/PVEDiscordDark.sh
 ~# bash PVEDiscordDark.sh install
 ```
 Or this oneliner
 ```
-bash <(curl -s https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh ) install
+bash <(curl -s https://raw.githubusercontent.com/OwObots/PVEDiscordDark/master/PVEDiscordDark.sh ) install
 ```
-
+## Modding the logo
+1. Open up dd_logo.psd in photoshop
+2. ???
+3. Profit
 
 ## Uninstallation
  To uninstall the theme, simply run the utility with the `uninstall` command.
@@ -40,6 +43,6 @@ The `offline` folder must have the following files: `meta/[imagelist, supported]
 You can find a zip containing the installer and offline folder under the artifact section of the GitHub Actions under this repository or as an asset attached to releases.
 
 ## Notes
-Thanks to [jonasled](https://github.com/jonasled) for helping out with the old version, and thanks to [SmallEngineMechanic](https://github.com/smallenginemechanic) for catching bugs for the rewrite!
+Thanks to [jonasled](https://github.com/jonasled) for helping out with the old version, [Weilbyte] For the original, and thanks to [SmallEngineMechanic](https://github.com/smallenginemechanic) for catching bugs for the rewrite!
 
 *Awoo'ing on this repo is encouraged.*
