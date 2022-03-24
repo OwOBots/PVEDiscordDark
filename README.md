@@ -43,6 +43,6 @@ The `offline` folder must have the following files: `meta/[imagelist, supported]
 You can find a zip containing the installer and offline folder under the artifact section of the GitHub Actions under this repository or as an asset attached to releases.
 
 ## Notes
-Thanks to [jonasled](https://github.com/jonasled) for helping out with the old version, [Weilbyte] For the original, and thanks to [SmallEngineMechanic](https://github.com/smallenginemechanic) for catching bugs for the rewrite!
+Thanks to [jonasled](https://github.com/jonasled) for helping out with the old version, [Weilbyte](https://github.com/Weilbyte) For the original, and thanks to [SmallEngineMechanic](https://github.com/smallenginemechanic) for catching bugs for the rewrite!
 
 *Awoo'ing on this repo is encouraged.*
