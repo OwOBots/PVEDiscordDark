@@ -19,7 +19,7 @@ SCRIPTPATH="${SCRIPTDIR}$(basename "${BASH_SOURCE[0]}")"
 OFFLINEDIR="${SCRIPTDIR}offline"
 
 REPO=${REPO:-"OwObots/PVEDiscordDark"}
-DEFAULT_TAG="Gensokyo-mod"
+DEFAULT_TAG="gensokyo-mod"
 TAG=${TAG:-$DEFAULT_TAG}
 BASE_URL="https://raw.githubusercontent.com/$REPO/$TAG"
 
