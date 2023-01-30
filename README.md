@@ -20,7 +20,7 @@ Or this oneliner
 ```
 bash <(curl -s https://raw.githubusercontent.com/OwObots/PVEDiscordDark/gensokyo-mod/PVEDiscordDark.sh ) install
 ```
-<<<<<<< HEAD
+
 ## Modding the logo
 1. Open up dd_logo.psd in photoshop
 2. ???
@@ -28,7 +28,7 @@ bash <(curl -s https://raw.githubusercontent.com/OwObots/PVEDiscordDark/gensokyo
 =======
 
 Note that you will need to run the install command every time `pve-manager` is updated (i.e. after every Proxmox update)
->>>>>>> master
+
 
 ## Uninstallation
  To uninstall the theme, simply run the utility with the `uninstall` command. Clearing browser cache is necessary to see the changes.
@@ -47,17 +47,8 @@ The `offline` folder must have the following files: `meta/[imagelist, supported]
 
 You can find a zip containing the installer and offline folder under the artifact section of the GitHub Actions under this repository or as an asset attached to releases.
 
-<<<<<<< HEAD
 ## Notes
 Thanks to [jonasled](https://github.com/jonasled) for helping out with the old version, [Weilbyte](https://github.com/Weilbyte) For the original, and thanks to [SmallEngineMechanic](https://github.com/smallenginemechanic) for catching bugs for the rewrite!
-=======
-## Contributors
-Thanks to everybody who contributed to this project, and additional thanks to [Crinisus](https://github.com/crinisus) for catching bugs for the rewrite!
 
-<a href="https://github.com/weilbyte/pvediscorddark/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=weilbyte/pvediscorddark" />
-</a>
-
->>>>>>> master
 
 *Awoo'ing on this repo is encouraged.*
