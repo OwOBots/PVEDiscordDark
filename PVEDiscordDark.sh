@@ -37,11 +37,6 @@ hash sed 2>/dev/null || {
     exit 1;
 }
 
-hash curl 2>/dev/null || { 
-    echo -e >&2 "${BRED}cURL is required but missing from your system${REG}";
-    exit 1;
-}
-
 hash pveversion 2>/dev/null || { 
     echo -e >&2 "${BRED}PVE installation required but missing from your system${REG}";
     exit 1;
@@ -50,11 +45,16 @@ hash pveversion 2>/dev/null || {
 if test -d "$OFFLINEDIR"; then
     echo "Offline directory detected, entering offline mode."
     OFFLINE=true
+else
+    hash curl 2>/dev/null || { 
+        echo -e >&2 "${BRED}cURL is required but missing from your system${REG}";
+        exit 1;
+    }
 fi
 
 if [ "$OFFLINE" = false ]; then
-    curl -sSf -f https://github.com/robots.txt &> /dev/null || {
-        echo -e >&2 "${BRED}Could not establish a connection to GitHub (github.com)${REG}";
+    curl -sSf -f https://raw.githubusercontent.com/ &> /dev/null || {
+        echo -e >&2 "${BRED}Could not establish a connection to GitHub (https://raw.githubusercontent.com)${REG}";
         exit 1;
     }
 
